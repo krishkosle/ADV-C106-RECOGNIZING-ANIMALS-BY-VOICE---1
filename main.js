@@ -28,13 +28,13 @@ function gotResults(error, results) {
     img = document.getElementById('animal_image');
 
     if (results[0].label == "Barking") {
-      img.src = 'bark.gif';
+      img.src = 'bark.png';
       dog = dog+1;
     } else if (results[0].label == "Meowing") {
-      img.src = 'meow.gif';
+      img.src = 'meow.png';
       cat = cat + 1;
     } else{
-      img.src = 'listen.gif';
+      img.src = 'listen.png';
     }
   }
 }
